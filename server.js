@@ -3,7 +3,7 @@ const logger = require("morgan");
 const compression = require("compression");
 const mongoose = require("mongoose");
 
-var MONGODB_URI = process.env.MONGODB_URL || "mongodb://localhost/dbName";
+var MONGODB_URI = process.env.MONGODB_URL || "mongodb://localhost/budgetDB";
 const options = {
   useNewUrlParser: true,
   useCreateIndex: true,
